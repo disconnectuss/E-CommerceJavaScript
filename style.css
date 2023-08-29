@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header side */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: white;
+    box-shadow: 2px 2px 20px #4e4376;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+
+}
+header .logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+header input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+header .btns{
+    display: flex;
+    gap: 10px;
+}
+header .btns button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+header .btns button:nth-child(1){
+    background:rgb(143, 45, 143);
+}
+header .btns button:nth-child(2){
+    background: blueviolet;
+}
+header .btns button:nth-child(3){
+    background: rgb(41, 41, 227);
+}
+/* header is ok */
+
+/*  main side */
+/* categories section*/
+#category-sec {
+    margin: 40px;
+
+}
+.categories {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 40px;
+
+}
+.category {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border: 5px black;
+}
+
+.category img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.category span {
+    position: absolute;
+    bottom: 10px;
+    background:white;
+    width: 70%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 2px 2px 10px black;
+}
+.category span:hover{
+   background:pink;
+}
+/* categories are ok! */
+
+/* products section */
+#product-sec{
+    margin: 40px;
+}
+.products{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-around;
+
+
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+.product img{
+    width: 100%;
+    border-radius: 10px;
+  
+}
+.pro-info{
+    background: rgb(9, 9, 9);
+    width: 100%;
+    color:chartreuse;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.pro-info button{
+    padding: 5px;
+    border:none;
+    border-radius: 10px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+   
+}
+.pro-info button:hover {
+    scale: 0.9;
+    box-shadow: 2px 2px 2opx white;
+}
+/* product section is ok! */
+
+/*  basket module */
+.module-wrapper {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(128, 128, 128, 0.819);
+    top: 0;
+    left: 0;
+    display:none;
+    place-items: center;
+    z-index: 1000;
+
+}
+.active{
+    display: grid;
+}
+.module-inner {
+    background: white;
+    width: 70%;
+    height: 60%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.icon {
+    display: flex;
+    justify-content: end;
+}
+.icon img {
+    width: 50px;
+    cursor:pointer;
+
+}
+.icon img:hover{
+    scale: 0.9;
+}
+.amountBar {
+    gap:5px;
+    display: flex;
+    align-items: center;
+}
+#minus-btn img, #plus-btn img {
+    max-width: 7px;
+    border: none; 
+}
+
+/* module products */
+.list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: auto;
+    height: 70%;
+    padding: 10px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.list-item img{
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.list-item button {
+    border: 1px solid red;
+    padding: 3px 8px;
+    border-radius: 6px;
+    cursor:pointer;
+}
+
+.list-item button:hover {
+    background: red;
+    color: white;
+}
