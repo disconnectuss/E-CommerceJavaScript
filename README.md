@@ -1,5 +1,5 @@
-<!D![Uploading ezgif.com-video-to-gif.gif…]()
-OCTYPE html>
+[ezgif com-video-to-gif](https://github.com/disconnectuss/E-CommerceJavaScript/assets/129686850/0f439803-8196-4a48-ad15-b1b884a82ac1)
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
