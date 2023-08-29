@@ -1,4 +1,5 @@
-[ezgif com-video-to-gif](https://github.com/disconnectuss/E-CommerceJavaScript/assets/129686850/0f439803-8196-4a48-ad15-b1b884a82ac1)
+![ezgif com-video-to-gif](https://github.com/disconnectuss/E-CommerceJavaScript/assets/129686850/8f2dce2a-4b01-4583-8f7d-d8d6f8ccc1be)
+
 <!DOCTYPE html>
 <html>
 <head>
