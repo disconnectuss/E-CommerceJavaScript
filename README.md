@@ -1,57 +1,44 @@
-# E-commerce 
-This project is an e-commerce website with basket function retrieves data from the database(API) and displays it on the page.
+<!D![Uploading ezgif.com-video-to-gif.gif…]()
+OCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 align="center">🛍️ E-Ticaret Projesi</h1>
+    <p align="center">HTML5, CSS3 ve JavaScript ile oluşturulmuş modern bir e-ticaret platformu.</p>
+  </header>
+  
+  <div align="center">
+    <img src="screenshot.png" alt="Proje Ekran Görüntüsü">
+  </div>
+
+  <h2 align="center">🚀 Özellikler</h2>
+  <ul>
+    <li>Geniş ürün katalogu ve detaylı ürün sayfaları</li>
+    <li>Arama ve filtreleme seçenekleri ile kolay ürün bulma</li>
+    <li>Gelişmiş sepet yönetimi ve ödeme işlemleri</li>
+    <li>Kullanıcı hesabı oluşturma ve oturum açma</li>
+  </ul>
+  
+  <h2 align="center">🛠️ Kurulum</h2>
+  <p>Projeyi klonlayın ve yerel sunucuda çalıştırın:</p>
+  ```bash
+  git clone https://github.com/KullaniciAdi/e-ticaret-projesi.git
+  cd e-ticaret-projesi
+  python -m http.server
+  <h2 align="center">🤝 Katkıda Bulunma</h2>
+  <p>Projeye katkı sağlamak için lütfen forklayın, yeni bir dal oluşturun ve pull isteği gönderin.</p>
+  <h2 align="center">📝 Lisans</h2>
+  <p>Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına göz atın.</p>
+  <footer>
+    <p align="center">&copy; 2023 E-Ticaret Projesi. Tüm hakları saklıdır.</p>
+  </footer>
+</body>
+</html>
 
 
-## Resources
-API link : https://fakeapi.platzi.com/
-base URL : https://api.escuelajs.co/api/v1/
 
-
-
-
-## to-do-list
-- get a static header
-
-- get the category data from API and display it 
-- link : https://api.escuelajs.co/api/v1/categories 
-- at the same time the page loaded.
-- Write a request to an endpoint.
-
-- get the products data from API and display it 
-- link : https://api.escuelajs.co/api/v1/products
-
-- when clicked on basket
-- - get the HTML of basket module and render it 
-- - get a close button fot the basket
-
-- when clicked add to basket
-- - send the product to console.log
-- - display the selected products in basket module
-- - turn the selected product into an array
-- - when the basket is opened display the arrray on the screen 
-- - when the basket is closed clean the html of module
-- - while rendering products get total price and substact the amount and the price
-TO DO LIST
-- get "up and down buttons" for amount 
-- - add id to buttons
-- - watch what's happening by eventlistener
-- - after finding new array add amount
-- - or else substract the amount
-
-- get an active search box
-- - watch the search text
-- - then filter the array
-- - check if it includes searched product
-- - lastly render the new array(searched)
-
-- When clicked log in get a login form Html 
-- - add login functions then submit it
-
-- When clicked sign up get a register form Html 
-- - add sign up functions then submit it
-
-- add users from API and make a blog section 
-
-- get a footer section for more info
-
-# E-CommerceJavaScript
